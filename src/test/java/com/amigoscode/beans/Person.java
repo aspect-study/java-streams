@@ -2,13 +2,15 @@ package com.amigoscode.beans;
 
 public class Person {
 
-    private final Integer id;
-    private final String firstName;
-    private final String lastName;
-    private final String email;
-    private final String gender;
-    private final Integer age;
-
+    private Integer id;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String gender;
+    private Integer age;
+    
+    public Person() {}
+    
     public Person(Integer id,
                   String firstName,
                   String lastName,
